@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1984 - DNS</title>
+</head>
+
+<body>
+    <table border="0" width="90%" align="center">
+        <tr>
+            <td>
+                <a href="index.html">← Volver al índice</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="0" width="90%" align="center" cellpadding="10">
+        <tr>
+            <td colspan="2" align="center">
+                <h1> 1984 – Sistema de Nombres de Dominio (DNS)</h1>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <img src="https://co-media.hptiendaenlinea.com/magefan_blog/275ravam.png" 
+                    alt="Existencia del DNS" width="500">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h3>Descripción</h3>
+                <p>
+                    Se implementa el <strong>DNS</strong>, creando extensiones como <strong>.com</strong>, <strong>.org</strong>, 
+                    <strong>.edu</strong>, <strong>.gov</strong> y <strong>.mil</strong>. El DNS actúa como una "agenda telefónica" 
+                    de Internet, traduciendo nombres fáciles de recordar (google.com) en direcciones IP numéricas.
+                </p>
+                <p>
+                    El primer dominio .com fue <em>Symbolics.com</em>, registrado el 15 de marzo de 1985. 
+                    Hoy existen más de <strong>350 millones de dominios</strong> registrados globalmente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h3> Fuentes</h3>
+                <p><small>
+                    <a href="https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en" target="_blank">ICANN</a> • 
+                    <a href="https://www.rfc-editor.org/rfc/rfc1034" target="_blank">RFC 1034-1035</a> • 
+                    <a href="https://www.verisign.com/en_US/domain-names/dnib/index.xhtml" target="_blank">Verisign Report</a>
+                </small></p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="0" width="90%" align="center">
+        <tr>
+            <td align="center">
+                <a href="1983-internet.html">← Evento anterior</a> | 
+                <a href="index.html">Volver al índice</a> | 
+                <a href="1989-www.html">Siguiente evento →</a>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+</body>
+
+</html>
