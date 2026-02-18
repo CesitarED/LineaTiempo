@@ -1,34 +1,79 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento: indica al navegador que es HTML5 -->
+
 <html lang="es">
+<!-- Elemento raíz del documento. lang="es" define el idioma español para accesibilidad y SEO -->
 
 <head>
+    <!-- Sección de metadatos: no visible para el usuario, pero importante para el navegador -->
+
     <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres UTF-8, necesaria para mostrar tildes y ñ correctamente -->
+
     <title>Índice - Historia del Internet</title>
+    <!-- Título que aparece en la pestaña del navegador -->
 </head>
 
 <body>
-    
+    <!-- Cuerpo del documento: aquí va todo el contenido visible de la página -->
+
     <table border="1" width="80%" align="center" cellpadding="10">
-        <!-- TÍTULO -->
+        <!--
+        Tabla principal que estructura toda la página:
+        - border="1"        → muestra el borde de las celdas con grosor 1px
+        - width="80%"       → la tabla ocupa el 80% del ancho de la ventana
+        - align="center"    → centra la tabla horizontalmente en la página
+        - cellpadding="10"  → agrega 10px de relleno interno en cada celda
+    -->
+
+        <!-- ===================== SECCIÓN: TÍTULO ===================== -->
         <tr>
-            <th colspan="3" >
-                <h1> Línea de Tiempo - Historia del Internet</h1>
+            <!-- tr = table row, define una fila dentro de la tabla -->
+
+            <th colspan="3">
+                <!--
+                th = table header, celda de encabezado (texto en negrita y centrado por defecto)
+                colspan="3" → la celda se expande ocupando las 3 columnas de la tabla
+            -->
+                <h1>Línea de Tiempo - Historia del Internet</h1>
+                <!-- Título principal de la página -->
+
                 <p>Selecciona un evento para conocer más detalles</p>
+                <!-- Instrucción descriptiva para el usuario -->
             </th>
         </tr>
-        
-        <!-- ENCABEZADOS -->
-        <tr >
+
+        <!-- ===================== SECCIÓN: ENCABEZADOS DE COLUMNA ===================== -->
+        <tr>
             <td width="15%" align="center"><strong>Año</strong></td>
+            <!--
+                td = table data, celda de datos
+                width="15%"     → esta columna ocupa el 15% del ancho total de la tabla
+                align="center"  → centra el contenido horizontalmente
+                <strong>        → pone el texto en negrita
+            -->
+
             <td width="50%"><strong>Evento</strong></td>
+            <!-- Columna central: ocupa el 50% del ancho, alineada a la izquierda por defecto -->
+
             <td width="35%" align="center"><strong>Enlace</strong></td>
+            <!-- Columna derecha: ocupa el 35% restante del ancho -->
         </tr>
-        
-        <!-- CONTENIDO -->
+
+        <!-- ===================== SECCIÓN: FILAS DE CONTENIDO ===================== -->
+        <!--
+            Cada <tr> representa un hito histórico del Internet.
+            Estructura de cada fila:
+              - Celda 1: año del evento (centrado)
+              - Celda 2: nombre/descripción del evento
+              - Celda 3: enlace a la página de detalles del evento
+        -->
+
         <tr>
             <td align="center">1969</td>
             <td>ARPANET - Primera red de computadoras</td>
             <td align="center"><a href="1969-arpanet.html">Ver detalles</a></td>
+            <!-- <a href="..."> define un hipervínculo hacia la página del evento correspondiente -->
         </tr>
         <tr>
             <td align="center">1971</td>
@@ -100,15 +145,25 @@
             <td>IA, IoT y 5G</td>
             <td align="center"><a href="2020-ai.html">Ver detalles</a></td>
         </tr>
-        
-        <!-- PIE -->
+
+        <!-- ===================== SECCIÓN: PIE DE TABLA ===================== -->
         <tr>
             <td colspan="3" align="center" bgcolor="#f0f0f0">
+                <!--
+                colspan="3"      → la celda ocupa las 3 columnas (pie de ancho completo)
+                align="center"   → centra el texto horizontalmente
+                bgcolor="#f0f0f0"→ aplica un color de fondo gris claro a la celda
+            -->
                 <p><small>Historia del Internet - Desde ARPANET hasta la actualidad</small></p>
+                <!-- <small> reduce el tamaño del texto, usado convencionalmente para notas al pie -->
             </td>
         </tr>
+
     </table>
+    <!-- Cierre de la tabla principal -->
 
 </body>
+<!-- Cierre del cuerpo del documento -->
 
 </html>
+<!-- Cierre del documento HTML -->
